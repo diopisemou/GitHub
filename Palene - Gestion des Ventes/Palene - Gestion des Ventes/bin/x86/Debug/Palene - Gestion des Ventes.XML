@@ -1,0 +1,423 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Palene - Gestion des Ventes</name>
+    </assembly>
+    <members>
+        <member name="F:Palene___Gestion_des_Ventes.avertstock.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.avertstock.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.avertstock.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Form1">
+            <summary>
+            Classe principale contenant l'ensemble des operations effectuables à partir du logiciel
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Form1.#ctor">
+            <summary>
+            Formulaire Principale
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Form1.UpdateData(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="requeteupdate"></param>
+        </member>
+        <member name="F:Palene___Gestion_des_Ventes.Form1.components">
+            <summary>
+            Variable nécessaire au concepteur.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Form1.Dispose(System.Boolean)">
+            <summary>
+            Nettoyage des ressources utilisées.
+            </summary>
+            <param name="disposing">true si les ressources managées doivent être supprimées ; sinon, false.</param>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Form1.InitializeComponent">
+            <summary>
+            Méthode requise pour la prise en charge du concepteur - ne modifiez pas
+            le contenu de cette méthode avec l'éditeur de code.
+            </summary>
+        </member>
+        <member name="P:Palene___Gestion_des_Ventes.Form1.ValeurCmdAdmin">
+            <summary>
+            Valeur de retour de la commande de l'admin : Affichage du Stock ou Edition des Etats
+            </summary>
+        </member>
+        <member name="F:Palene___Gestion_des_Ventes.Page_Connexion.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Page_Connexion.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Page_Connexion.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet.Palene_Gest_VenteDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet.USysApplicationLogDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet.Palene_Gest_VenteRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet.USysApplicationLogRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet.Palene_Gest_VenteRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet.USysApplicationLogRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSetTableAdapters.Palene_Gest_VenteTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSetTableAdapters.USysApplicationLogTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSetTableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSetTableAdapters.TableAdapterManager.UpdateAll(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1.Palene_Gest_VenteDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1.Palene_HistoriqueDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1.USysApplicationLogDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1.Palene_Gest_VenteRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1.Palene_HistoriqueRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1.USysApplicationLogRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1.Palene_Gest_VenteRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1.Palene_HistoriqueRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1.USysApplicationLogRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1TableAdapters.Palene_Gest_VenteTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1TableAdapters.Palene_HistoriqueTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1TableAdapters.USysApplicationLogTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1TableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1TableAdapters.TableAdapterManager.UpdateAll(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2.Palene_Gest_VenteDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2.Palene_HistoriqueDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2.USysApplicationLogDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2.Palene_Gest_VenteRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2.Palene_HistoriqueRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2.USysApplicationLogRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2.Palene_Gest_VenteRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2.Palene_HistoriqueRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2.USysApplicationLogRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2TableAdapters.Palene_Gest_VenteTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2TableAdapters.Palene_HistoriqueTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2TableAdapters.USysApplicationLogTableAdapter">
+             <summary>
+            Represents the connection and commands used to retrieve and save data.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2TableAdapters.TableAdapterManager">
+             <summary>
+            TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Update rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Insert rows in top-down order.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Delete rows in bottom-up order.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+             <summary>
+            Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2TableAdapters.TableAdapterManager.UpdateAll(Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2)">
+             <summary>
+            Update all changes to the dataset.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+             <summary>
+            Update Order Option
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Palene_Gest_VenteDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+             <summary>
+            Used to sort self-referenced table's rows
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.Program.Main">
+            <summary>
+            Point d'entrée principal de l'application.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.UserHandlingForm.#ctor">
+            <summary>
+            constructeur du gestion des utilisateurs
+            </summary>
+        </member>
+        <member name="F:Palene___Gestion_des_Ventes.UserHandlingForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.UserHandlingForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Palene___Gestion_des_Ventes.UserHandlingForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Palene___Gestion_des_Ventes.Properties.Resources">
+            <summary>
+              Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
+            </summary>
+        </member>
+        <member name="P:Palene___Gestion_des_Ventes.Properties.Resources.ResourceManager">
+            <summary>
+              Retourne l'instance ResourceManager mise en cache utilisée par cette classe.
+            </summary>
+        </member>
+        <member name="P:Palene___Gestion_des_Ventes.Properties.Resources.Culture">
+            <summary>
+              Remplace la propriété CurrentUICulture du thread actuel pour toutes
+              les recherches de ressources à l'aide de cette classe de ressource fortement typée.
+            </summary>
+        </member>
+        <member name="P:Palene___Gestion_des_Ventes.Properties.Resources.plage">
+            <summary>
+              Recherche une ressource localisée de type System.Drawing.Bitmap.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,21 @@
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\bin\x86\Release\Palene_Gest_Vente.accdb
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\bin\x86\Release\Palene - Gestion des Ventes.exe.config
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\bin\x86\Release\Palene - Gestion des Ventes.exe.manifest
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\bin\x86\Release\Palene - Gestion des Ventes.application
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\bin\x86\Release\Palene - Gestion des Ventes.XML
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\bin\x86\Release\Palene - Gestion des Ventes.exe
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\bin\x86\Release\Palene - Gestion des Ventes.pdb
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\bin\x86\Release\DocX.dll
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Interop.AccWizObjects.dll
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Interop.DAO.dll
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Palene - Gestion des Ventes.csproj.ResolveComReference.cache
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Palene___Gestion_des_Ventes.avertstock.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Palene___Gestion_des_Ventes.Form1.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Palene___Gestion_des_Ventes.Page_Connexion.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Palene___Gestion_des_Ventes.Properties.Resources.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Palene___Gestion_des_Ventes.UserHandlingForm.resources
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Palene - Gestion des Ventes.csproj.GenerateResource.Cache
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Palene - Gestion des Ventes.exe.manifest
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Palene - Gestion des Ventes.application
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Palene - Gestion des Ventes.exe
+C:\Users\ASUS\Documents\Visual Studio 2012\Projects\Palene - Gestion des Ventes\Palene - Gestion des Ventes\obj\x86\Release\Palene - Gestion des Ventes.pdb
